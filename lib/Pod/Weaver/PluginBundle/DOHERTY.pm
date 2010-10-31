@@ -4,6 +4,12 @@ use warnings;
 package Pod::Weaver::PluginBundle::DOHERTY;
 # ABSTRACT: Pod::Weaver configuration the way DOHERTY does it
 
+# Dependencies
+use Pod::Weaver::Plugin::Encoding                       qw();
+use Pod::Weaver::Section::Availability 1.102570         qw();
+use Pod::Weaver::Section::SourceGitHub 0.53             qw();
+use Pod::Weaver::Section::BugsAndLimitations 1.102670   qw(); # To read the bugtracker properly
+
 use Pod::Weaver::Config::Assembler;
 
 sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
