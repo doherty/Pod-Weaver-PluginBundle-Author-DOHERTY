@@ -1,0 +1,35 @@
+NAME
+    Pod::Weaver::PluginBundle::DOHERTY - Pod::Weaver configuration the way
+    DOHERTY does it
+
+VERSION
+    version 0.001
+
+AVAILABILITY
+    The latest version of this module is available from the Comprehensive
+    Perl Archive Network (CPAN). Visit <http://www.perl.com/CPAN/> to find a
+    CPAN site near you, or see
+    <http://search.cpan.org/dist/Pod-Weaver-PluginBundle-DOHERTY/>.
+
+    The development version lives at
+    <http://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY> and may be
+    cloned from <git://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY>.
+    Instead of sending patches, please fork this project using the standard
+    git and github infrastructure.
+
+BUGS AND LIMITATIONS
+    No bugs have been reported.
+
+    Please report any bugs or feature requests through the web interface at
+    <http://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY/issues>.
+
+AUTHOR
+    Mike Doherty <doherty@cpan.org>
+
+COPYRIGHT AND LICENSE
+    This software is Copyright (c) 2010 by Mike Doherty.
+
+    This is free software, licensed under:
+
+      The GNU General Public License, Version 3, June 2007
+
