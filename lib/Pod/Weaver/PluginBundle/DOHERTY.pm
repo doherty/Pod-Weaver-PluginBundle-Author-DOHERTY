@@ -24,6 +24,7 @@ sub mvp_bundle_config {
         [ 'SYNOPSIS',                       _exp('Generic'),            {} ],
         [ 'DESCRIPTION',                    _exp('Generic'),            {} ],
         [ 'OVERVIEW',                       _exp('Generic'),            {} ],
+        [ 'OPTIONS',                        _exp('Generic'),            {} ],
 
         [ 'METHODS',                        _exp('Generic'),            {} ],
         [ 'FUNCTIONS',                      _exp('Generic'),            {} ],
