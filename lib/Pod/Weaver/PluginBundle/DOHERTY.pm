@@ -34,6 +34,7 @@ sub mvp_bundle_config {
         [ '@DOHERTY/Availability',          _exp('Availability'),       {} ],
         [ '@DOHERTY/SourceGitHub',          _exp('SourceGitHub'),       {} ],
         [ '@DOHERTY/BugsAndLimitations',    _exp('BugsAndLimitations'), {} ],
+        [ 'CREDITS',                        _exp('Generic'),            {} ],
         [ '@DOHERTY/Authors',               _exp('Authors'),            {} ],
         [ '@DOHERTY/Legal',                 _exp('Legal'),              {} ],
     );
