@@ -1,6 +1,8 @@
 Revision history for Perl module Pod-Weaver-PluginBundle-DOHERTY
 
 {{$NEXT}}
+
+0.002     2010-11-26
     * Add a CREDITS section
 
 0.001     2010-10-31
