@@ -6,9 +6,9 @@ package Pod::Weaver::PluginBundle::DOHERTY;
 
 # Dependencies
 use Pod::Weaver::Plugin::Encoding                       qw();
-use Pod::Weaver::Section::Availability 1.102570         qw();
+use Pod::Weaver::Section::Availability       1.102570   qw(); # To set github URLs properly: https://rt.cpan.org/Ticket/Display.html?id=63364
 use Pod::Weaver::Section::SourceGitHub 0.53             qw();
-use Pod::Weaver::Section::BugsAndLimitations 1.102670   qw(); # To read the bugtracker properly
+use Pod::Weaver::Section::BugsAndLimitations 1.102670   qw(); # To read the bugtracker properly: https://rt.cpan.org/Ticket/Display.html?id=61605
 
 use Pod::Weaver::Config::Assembler;
 

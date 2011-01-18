@@ -3,7 +3,7 @@ NAME
     DOHERTY does it
 
 VERSION
-    version 0.002
+    version 0.003
 
 AVAILABILITY
     The latest version of this module is available from the Comprehensive
@@ -12,8 +12,8 @@ AVAILABILITY
     <http://search.cpan.org/dist/Pod-Weaver-PluginBundle-DOHERTY/>.
 
     The development version lives at
-    <http://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY.git> and may
-    be cloned from
+    <http://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY> and may be
+    cloned from
     <git://github.com/doherty/Pod-Weaver-PluginBundle-DOHERTY.git>. Instead
     of sending patches, please fork this project using the standard git and
     github infrastructure.
