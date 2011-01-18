@@ -1,6 +1,8 @@
 Revision history for Perl module Pod-Weaver-PluginBundle-DOHERTY
 
 {{$NEXT}}
+
+0.003     2011-01-18
     * Require Pod::Weaver::Section::Availability v1.110091
     * Note reasons for requiring certain versions
 
