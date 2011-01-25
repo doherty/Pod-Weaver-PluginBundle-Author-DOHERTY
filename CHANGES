@@ -1,6 +1,8 @@
 Revision history for Perl module Pod-Weaver-PluginBundle-Author-DOHERTY
 
 {{$NEXT}}
+
+0.004     2011-01-24
     * Rename to Pod::Weaver::PluginBungle::Author::DOHERTY per http://is.gd/MTB9aE
 
 0.003     2011-01-18

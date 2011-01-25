@@ -1,6 +1,6 @@
 NAME
-    Pod::Weaver::PluginBundle::DOHERTY - Pod::Weaver configuration the way
-    DOHERTY does it
+    Pod::Weaver::PluginBundle::Author::DOHERTY - Pod::Weaver configuration
+    the way DOHERTY does it
 
 VERSION
     version 0.004
