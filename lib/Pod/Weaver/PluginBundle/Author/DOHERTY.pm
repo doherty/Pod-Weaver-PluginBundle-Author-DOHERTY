@@ -1,8 +1,8 @@
-use strict;
-use warnings;
-
 package Pod::Weaver::PluginBundle::Author::DOHERTY;
 # ABSTRACT: Pod::Weaver configuration the way DOHERTY does it
+use strict;
+use warnings;
+# VERSION
 
 # Dependencies
 use Pod::Weaver::Plugin::Encoding                       qw();
