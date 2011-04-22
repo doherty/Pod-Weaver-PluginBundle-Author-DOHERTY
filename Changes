@@ -1,6 +1,8 @@
-Revision history for Perl module Pod-Weaver-PluginBundle-Author-DOHERTY
+Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+    * License is now Perl_5
+    * Packaging updates
 
 0.004     2011-01-24
     * Rename to Pod::Weaver::PluginBungle::Author::DOHERTY per http://is.gd/MTB9aE
