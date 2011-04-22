@@ -1,6 +1,8 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+
+0.005     2011-04-22
     * License is now Perl_5
     * Packaging updates
 
