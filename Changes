@@ -1,6 +1,8 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+    * Require upgrades to Availability and BugsAndLimitations
+    * Don't load modules in code - list them as prereqs instead
 
 0.005     2011-04-22
     * License is now Perl_5
