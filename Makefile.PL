@@ -2,37 +2,41 @@
 use strict;
 use warnings;
 
-BEGIN { require 5.006; }
+use 5.006;
 
-use ExtUtils::MakeMaker 6.31;
+use ExtUtils::MakeMaker 6.30;
 
 
 
 my %WriteMakefileArgs = (
-  'ABSTRACT' => 'Pod::Weaver configuration the way DOHERTY does it',
-  'AUTHOR' => 'Mike Doherty <doherty@cpan.org>',
-  'BUILD_REQUIRES' => {
-    'File::Find' => '0',
-    'File::Temp' => '0',
-    'Test::More' => '0'
+  "ABSTRACT" => "Pod::Weaver configuration the way DOHERTY does it",
+  "AUTHOR" => "Mike Doherty <doherty\@cpan.org>",
+  "BUILD_REQUIRES" => {
+    "File::Find" => 0,
+    "File::Temp" => 0,
+    "Module::Build" => "0.3601",
+    "Test::More" => 0
   },
-  'CONFIGURE_REQUIRES' => {
-    'ExtUtils::MakeMaker' => '6.31'
+  "CONFIGURE_REQUIRES" => {
+    "ExtUtils::MakeMaker" => "6.30",
+    "Module::Build" => "0.3601"
   },
-  'DISTNAME' => 'Pod-Weaver-PluginBundle-Author-DOHERTY',
-  'EXE_FILES' => [],
-  'LICENSE' => 'perl',
-  'NAME' => 'Pod::Weaver::PluginBundle::Author::DOHERTY',
-  'PREREQ_PM' => {
-    'Pod::Weaver::Config::Assembler' => '0',
-    'Pod::Weaver::Plugin::Encoding' => '0',
-    'Pod::Weaver::Section::Availability' => '1.102570',
-    'Pod::Weaver::Section::BugsAndLimitations' => '1.102670',
-    'Pod::Weaver::Section::SourceGitHub' => '0.53'
+  "DISTNAME" => "Pod-Weaver-PluginBundle-Author-DOHERTY",
+  "EXE_FILES" => [],
+  "LICENSE" => "perl",
+  "NAME" => "Pod::Weaver::PluginBundle::Author::DOHERTY",
+  "PREREQ_PM" => {
+    "Pod::Weaver::Config::Assembler" => 0,
+    "Pod::Weaver::Plugin::Encoding" => 0,
+    "Pod::Weaver::Section::Availability" => "1.20",
+    "Pod::Weaver::Section::BugsAndLimitations" => "1.20",
+    "Pod::Weaver::Section::SourceGitHub" => "0.53",
+    "strict" => 0,
+    "warnings" => 0
   },
-  'VERSION' => '0.005',
-  'test' => {
-    'TESTS' => 't/*.t'
+  "VERSION" => "0.006",
+  "test" => {
+    "TESTS" => "t/*.t"
   }
 );
 
