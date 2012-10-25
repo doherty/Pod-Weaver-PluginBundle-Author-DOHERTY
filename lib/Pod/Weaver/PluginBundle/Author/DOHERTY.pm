@@ -28,6 +28,8 @@ sub mvp_bundle_config {
         [ '@Author::DOHERTY/Availability',          _exp('Availability'),       {} ],
         [ '@Author::DOHERTY/SourceGitHub',          _exp('SourceGitHub'),       {} ],
         [ '@Author::DOHERTY/BugsAndLimitations',    _exp('BugsAndLimitations'), {} ],
+        [ 'COMPATIBILITY',                          _exp('Generic'),            {} ],
+
         [ 'CREDITS',                                _exp('Generic'),            {} ],
         [ '@Author::DOHERTY/Authors',               _exp('Authors'),            {} ],
         [ '@Author::DOHERTY/Legal',                 _exp('Legal'),              {} ],
