@@ -13,7 +13,6 @@ my %module_build_args = (
     "Test::More" => 0
   },
   "configure_requires" => {
-    "ExtUtils::MakeMaker" => "6.30",
     "Module::Build" => "0.3601"
   },
   "dist_abstract" => "Pod::Weaver configuration the way DOHERTY does it",
@@ -21,7 +20,7 @@ my %module_build_args = (
     "Mike Doherty <doherty\@cpan.org>"
   ],
   "dist_name" => "Pod-Weaver-PluginBundle-Author-DOHERTY",
-  "dist_version" => "0.006",
+  "dist_version" => "0.007",
   "license" => "perl",
   "module_name" => "Pod::Weaver::PluginBundle::Author::DOHERTY",
   "recommends" => {},
