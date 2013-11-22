@@ -27,7 +27,6 @@ my %module_build_args = (
   "recursive_test_files" => 1,
   "requires" => {
     "Pod::Weaver::Config::Assembler" => 0,
-    "Pod::Weaver::Plugin::Encoding" => 0,
     "Pod::Weaver::Section::Availability" => "1.20",
     "Pod::Weaver::Section::BugsAndLimitations" => "1.20",
     "Pod::Weaver::Section::SourceGitHub" => "0.53",
