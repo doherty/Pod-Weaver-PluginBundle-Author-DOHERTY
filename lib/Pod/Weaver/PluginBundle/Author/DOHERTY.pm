@@ -11,7 +11,7 @@ sub _exp { Pod::Weaver::Config::Assembler->expand_package($_[0]) }
 sub mvp_bundle_config {
     return (
         [ '@Author::DOHERTY/CorePrep',              _exp('@CorePrep'),          {} ],
-        [ '@Author::DOHERTY/Encoding',              _exp('-Encoding'),          {} ],
+        [ '@Author::DOHERTY/SingleEncoding',        _exp('-SingleEncoding'),    {} ],
         [ '@Author::DOHERTY/Name',                  _exp('Name'),               {} ],
         [ '@Author::DOHERTY/Version',               _exp('Version'),            {} ],
 
