@@ -1,5 +1,5 @@
 
-#!start included /usr/local/share/perl/5.10.1/ExtUtils/MANIFEST.SKIP
+#!start included /home/mike/perl5/perlbrew/perls/perl-5.18.1/lib/5.18.1/ExtUtils/MANIFEST.SKIP
 # Avoid version control files.
 \bRCS\b
 \bCVS\b
@@ -55,11 +55,7 @@
 
 # Avoid MYMETA files
 ^MYMETA\.
-#!end included /usr/local/share/perl/5.10.1/ExtUtils/MANIFEST.SKIP
+#!end included /home/mike/perl5/perlbrew/perls/perl-5.18.1/lib/5.18.1/ExtUtils/MANIFEST.SKIP
 
-
-# Specific to this project
-^dist\.ini$
-^MANIFEST\.SKIP$
-^\.build$
-^weaver\.ini$
+# Avoid archives of this distribution
+\bPod-Weaver-PluginBundle-Author-DOHERTY-[\d\.\_]+
