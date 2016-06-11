@@ -1,6 +1,8 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+
+0.009     2016-06-11
   - Add a Prelude region just before Synopsis
 
 0.008     2013-11-27
