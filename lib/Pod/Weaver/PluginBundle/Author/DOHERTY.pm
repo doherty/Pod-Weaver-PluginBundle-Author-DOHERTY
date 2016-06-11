@@ -15,6 +15,8 @@ sub mvp_bundle_config {
         [ '@Author::DOHERTY/Name',                  _exp('Name'),               {} ],
         [ '@Author::DOHERTY/Version',               _exp('Version'),            {} ],
 
+        [ '@Author::DOHERTY/Prelude',               _exp('Region'),             {region_name => 'prelude'} ],
+
         [ 'SYNOPSIS',                               _exp('Generic'),            {} ],
         [ 'DESCRIPTION',                            _exp('Generic'),            {} ],
         [ 'OVERVIEW',                               _exp('Generic'),            {} ],
