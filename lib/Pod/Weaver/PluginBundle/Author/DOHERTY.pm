@@ -17,6 +17,8 @@ sub mvp_bundle_config {
 
         [ '@Author::DOHERTY/Prelude',               _exp('Region'),             {region_name => 'prelude'} ],
 
+        [ '@Author::DOHERTY/Leftovers',             _exp('Leftovers'),          {} ],
+
         [ 'SYNOPSIS',                               _exp('Generic'),            {} ],
         [ 'DESCRIPTION',                            _exp('Generic'),            {} ],
         [ 'OVERVIEW',                               _exp('Generic'),            {} ],
@@ -24,8 +26,6 @@ sub mvp_bundle_config {
 
         [ 'METHODS',                                _exp('Generic'),            {} ],
         [ 'FUNCTIONS',                              _exp('Generic'),            {} ],
-
-        [ '@Author::DOHERTY/Leftovers',             _exp('Leftovers'),          {} ],
 
         [ '@Author::DOHERTY/Availability',          _exp('Availability'),       {} ],
         [ '@Author::DOHERTY/SourceGitHub',          _exp('SourceGitHub'),       {} ],

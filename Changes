@@ -1,6 +1,7 @@
 Revision history for Perl module {{$dist->name}}
 
 {{$NEXT}}
+ - Move leftovers up so "=for test_synopsis" is before synopsis
 
 0.009     2016-06-11
   - Add a Prelude region just before Synopsis
